@@ -22,6 +22,7 @@ function SignUp() {
      .then((res) => res.json())
      .then((data) => (data))
   }
+
   return (
     <div className='mt-4'>
       <form className='w-60 h-70 max-w-sm bg-gray-100 rounded-md sm:max-w-md
@@ -70,4 +71,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default SignUp;
